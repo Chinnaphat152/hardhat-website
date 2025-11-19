@@ -38,6 +38,10 @@ const connection = await network.connect();
 
 This creates a new blockchain simulation based on the Network Config specified in your configuration file or via the `--network` flag.
 
+:::tip
+To learn more about network management, read [this explanation](/docs/explanations/network-management).
+:::
+
 ### Standalone node
 
 You can also run a simulated network as a standalone process that exposes a JSON-RPC interface over HTTP:
@@ -45,7 +49,3 @@ You can also run a simulated network as a standalone process that exposes a JSON
 <Run command="hardhat node" />
 
 This starts a local node at `http://127.0.0.1:8545` that you can connect to with wallets, applications, Hardhat, or other tools.
-
-### More about network management
-
-To learn more about network management, read [this explanation](/docs/explanations/network-management).
